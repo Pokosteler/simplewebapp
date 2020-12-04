@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS employee
+(
+    employee_id   BIGSERIAL  PRIMARY KEY,
+    first_name    bpchar(64) NULL,
+    last_name     bpchar(64) NULL,
+    department_id BIGSERIAL  NULL,
+    job_title     bpchar(64) NULL,
+    gender        gender     NULL,
+    date_of_birth date       NULL
+);
